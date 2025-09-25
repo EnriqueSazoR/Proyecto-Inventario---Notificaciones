@@ -1,54 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Luis Sazo\\OneDrive\\Documentos\\ProyectoInventarioReportes\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{42951012-8801-4687-A350-A9A1BF3E7994}|ProyectoInventarioReportes\\ProyectoInventarioReportes.csproj|c:\\users\\luis sazo\\onedrive\\documentos\\proyectoinventarioreportes\\proyectoinventarioreportes\\controllers\\marcascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42951012-8801-4687-A350-A9A1BF3E7994}|ProyectoInventarioReportes\\ProyectoInventarioReportes.csproj|solutionrelative:proyectoinventarioreportes\\controllers\\marcascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42951012-8801-4687-A350-A9A1BF3E7994}|ProyectoInventarioReportes\\ProyectoInventarioReportes.csproj|c:\\users\\luis sazo\\onedrive\\documentos\\proyectoinventarioreportes\\proyectoinventarioreportes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42951012-8801-4687-A350-A9A1BF3E7994}|ProyectoInventarioReportes\\ProyectoInventarioReportes.csproj|solutionrelative:proyectoinventarioreportes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Luis Sazo\\OneDrive\\Documentos\\ProyectoInventarioReportes\\ProyectoInventarioReportes\\Program.cs",
-              "RelativeDocumentMoniker": "ProyectoInventarioReportes\\Program.cs",
-              "ToolTip": "C:\\Users\\Luis Sazo\\OneDrive\\Documentos\\ProyectoInventarioReportes\\ProyectoInventarioReportes\\Program.cs",
-              "RelativeToolTip": "ProyectoInventarioReportes\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T03:48:17.005Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MarcasController.cs",
-              "DocumentMoniker": "C:\\Users\\Luis Sazo\\OneDrive\\Documentos\\ProyectoInventarioReportes\\ProyectoInventarioReportes\\Controllers\\MarcasController.cs",
-              "RelativeDocumentMoniker": "ProyectoInventarioReportes\\Controllers\\MarcasController.cs",
-              "ToolTip": "C:\\Users\\Luis Sazo\\OneDrive\\Documentos\\ProyectoInventarioReportes\\ProyectoInventarioReportes\\Controllers\\MarcasController.cs",
-              "RelativeToolTip": "ProyectoInventarioReportes\\Controllers\\MarcasController.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAABsAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T03:38:30.141Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

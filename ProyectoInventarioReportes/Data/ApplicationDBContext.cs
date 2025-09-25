@@ -14,6 +14,7 @@ namespace ProyectoInventarioReportes.Data
         // Modelos se definen acá
         public DbSet<Producto> Productos { get; set; }
         public DbSet<Marca> Marcas { get; set; }
+        public DbSet<MovimientoInventario> MovimientoInventarios { get; set; }
     }
 
 

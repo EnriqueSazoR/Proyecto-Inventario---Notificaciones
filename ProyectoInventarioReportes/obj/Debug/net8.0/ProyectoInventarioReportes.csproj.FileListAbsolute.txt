@@ -137,3 +137,4 @@ C:\Users\Luis Sazo\OneDrive\Documentos\ProyectoInventarioReportes\ProyectoInvent
 C:\Users\Luis Sazo\OneDrive\Documentos\ProyectoInventarioReportes\ProyectoInventarioReportes\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Luis Sazo\OneDrive\Documentos\ProyectoInventarioReportes\ProyectoInventarioReportes\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\Luis Sazo\OneDrive\Documentos\ProyectoInventarioReportes\ProyectoInventarioReportes\obj\Debug\net8.0\ProyectoInventarioReportes.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Luis Sazo\OneDrive\Documentos\ProyectoInventarioReportes\ProyectoInventarioReportes\obj\Debug\net8.0\ProyectoInventarioReportes.sourcelink.json
