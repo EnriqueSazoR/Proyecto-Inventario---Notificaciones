@@ -11,6 +11,18 @@ namespace ProyectoInventarioReportes.Data
 
         }
 
+        // Convertir valores enum a string en la base de datos
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<MovimientoInventario>()
+                .Property(m => m.Movimiento)
+                .HasConversion<string>();
+
+            modelBuilder.Entity<MovimientoInventario>()
+                .Property(v => v.Venta)
+                .HasConversion<string>();
+        }
+
         // Modelos se definen acá
         public DbSet<Producto> Productos { get; set; }
         public DbSet<Marca> Marcas { get; set; }

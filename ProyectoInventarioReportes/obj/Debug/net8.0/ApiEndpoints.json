@@ -1,42 +1,34 @@
 [
   {
-    "ContainingType": "ProyectoInventarioReportes.Controllers.MarcasController",
-    "Method": "GetProductos",
-    "RelativePath": "api",
-    "HttpMethod": "GET",
+    "ContainingType": "ProyectoInventarioReportes.Controllers.MovimientoInventarioController",
+    "Method": "IngresarStock",
+    "RelativePath": "MovimientoInventario/Entrada",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
+    "Parameters": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[ProyectoInventarioReportes.Models.Producto, ProyectoInventarioReportes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
+        "Name": "ingresoStockDTO",
+        "Type": "ProyectoInventarioReportes.DTO.IngresoStockDTO",
+        "IsRequired": true
       }
-    ]
+    ],
+    "ReturnTypes": []
   },
   {
-    "ContainingType": "ProyectoInventarioReportes.Controllers.MarcasController",
-    "Method": "GetMarcas",
-    "RelativePath": "Marcas",
-    "HttpMethod": "GET",
+    "ContainingType": "ProyectoInventarioReportes.Controllers.MovimientoInventarioController",
+    "Method": "SalidaStock",
+    "RelativePath": "MovimientoInventario/Salidas",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
+    "Parameters": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[ProyectoInventarioReportes.Models.Marca, ProyectoInventarioReportes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
+        "Name": "salidaStockDTO",
+        "Type": "ProyectoInventarioReportes.DTO.SalidaStockDTO",
+        "IsRequired": true
       }
-    ]
+    ],
+    "ReturnTypes": []
   }
 ]

@@ -1,6 +1,7 @@
-﻿using ProyectoInventarioReportes.Models;
+﻿
+using ProyectoInventarioReportes.Models;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
+
 
 namespace ProyectoInventarioReportes.DTO
 {

@@ -5,78 +5,64 @@
     "version": "1.0"
   },
   "paths": {
-    "/Marcas": {
-      "get": {
+    "/MovimientoInventario/Entrada": {
+      "post": {
         "tags": [
-          "Marcas"
+          "MovimientoInventario"
         ],
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Marca"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Marca"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Marca"
-                  }
-                }
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/IngresoStockDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/IngresoStockDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/IngresoStockDTO"
               }
             }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
           }
         }
       }
     },
-    "/api": {
-      "get": {
+    "/MovimientoInventario/Salidas": {
+      "post": {
         "tags": [
-          "Marcas"
+          "MovimientoInventario"
         ],
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Producto"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Producto"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Producto"
-                  }
-                }
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SalidaStockDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SalidaStockDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/SalidaStockDTO"
               }
             }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
           }
         }
       }
@@ -84,55 +70,83 @@
   },
   "components": {
     "schemas": {
-      "Marca": {
+      "IngresoStockDTO": {
+        "required": [
+          "movimiento",
+          "producto",
+          "unidades"
+        ],
         "type": "object",
         "properties": {
-          "id": {
+          "producto": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "unidades": {
+            "maximum": 2147483647,
+            "minimum": 1,
+            "pattern": "^\\d+$",
             "type": "integer",
             "format": "int32"
           },
-          "nombre_Marca": {
-            "type": "string",
-            "nullable": true
+          "movimiento": {
+            "$ref": "#/components/schemas/TipoMovimiento"
           },
-          "productos": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/Producto"
-            },
-            "nullable": true
+          "venta": {
+            "$ref": "#/components/schemas/TipoVenta"
+          },
+          "fechaMovimiento": {
+            "type": "string",
+            "format": "date-time"
           }
         },
         "additionalProperties": false
       },
-      "Producto": {
+      "SalidaStockDTO": {
+        "required": [
+          "movimiento",
+          "producto",
+          "unidades"
+        ],
         "type": "object",
         "properties": {
-          "id": {
+          "producto": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "unidades": {
+            "maximum": 2147483647,
+            "minimum": 1,
+            "pattern": "^\\d+$",
             "type": "integer",
             "format": "int32"
           },
-          "nombre_Producto": {
+          "movimiento": {
+            "$ref": "#/components/schemas/TipoMovimiento"
+          },
+          "venta": {
+            "$ref": "#/components/schemas/TipoVenta"
+          },
+          "fechaMovimiento": {
             "type": "string",
-            "nullable": true
-          },
-          "descripcion": {
-            "type": "string",
-            "nullable": true
-          },
-          "stock": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "idMarca": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "marca": {
-            "$ref": "#/components/schemas/Marca"
+            "format": "date-time"
           }
         },
         "additionalProperties": false
+      },
+      "TipoMovimiento": {
+        "enum": [
+          "EntradaStock",
+          "Venta"
+        ],
+        "type": "string"
+      },
+      "TipoVenta": {
+        "enum": [
+          "Online",
+          "Sucursal"
+        ],
+        "type": "string"
       }
     }
   }
