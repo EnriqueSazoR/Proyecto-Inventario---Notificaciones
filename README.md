@@ -20,13 +20,16 @@ API de Inventario desarrollada con **ASP.NET Core Web API** y **SQL Server**, en
   - Actualizar stock de productos existentes.  
 
 - **Reportes**  
-  - Productos más vendidos.  
-  - Productos menos vendidos.  
-  - Productos con stock bajo.  
-  - Movimientos recientes de inventario.  
+  - Lista de productos dependiendo su stock
+  - Movimientos de productos (entrada o salida) en un mes y año en concreto.  
+  - Productos más vendidos, sumando el total de ventas y contando cuantas veces fue vendido en sucursal u online.  
+  - Cuantas ventas se han registrado en total en sucursales y online según un mes y año.  
 
 - **Notificaciones**  
-  - Envío de alertas por correo cuando el stock de un producto es inferior al mínimo configurado.  
+  - Envío de alertas por correo cuando se produzca una entrada o salida.
+ 
+- **PDF**  
+  - Cada reporte contará con su respectivo PDF.  
 
 ---
 
