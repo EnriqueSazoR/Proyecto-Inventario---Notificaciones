@@ -3,32 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Luis Sazo\\OneDrive\\Documentos\\ProyectoInventarioReportes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{42951012-8801-4687-A350-A9A1BF3E7994}|ProyectoInventarioReportes\\ProyectoInventarioReportes.csproj|c:\\users\\luis sazo\\onedrive\\documentos\\proyectoinventarioreportes\\proyectoinventarioreportes\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42951012-8801-4687-A350-A9A1BF3E7994}|ProyectoInventarioReportes\\ProyectoInventarioReportes.csproj|solutionrelative:proyectoinventarioreportes\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42951012-8801-4687-A350-A9A1BF3E7994}|ProyectoInventarioReportes\\ProyectoInventarioReportes.csproj|c:\\users\\luis sazo\\onedrive\\documentos\\proyectoinventarioreportes\\proyectoinventarioreportes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42951012-8801-4687-A350-A9A1BF3E7994}|ProyectoInventarioReportes\\ProyectoInventarioReportes.csproj|solutionrelative:proyectoinventarioreportes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42951012-8801-4687-A350-A9A1BF3E7994}|ProyectoInventarioReportes\\ProyectoInventarioReportes.csproj|c:\\users\\luis sazo\\onedrive\\documentos\\proyectoinventarioreportes\\proyectoinventarioreportes\\migrations\\20250926044009_updateenumtostring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42951012-8801-4687-A350-A9A1BF3E7994}|ProyectoInventarioReportes\\ProyectoInventarioReportes.csproj|solutionrelative:proyectoinventarioreportes\\migrations\\20250926044009_updateenumtostring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42951012-8801-4687-A350-A9A1BF3E7994}|ProyectoInventarioReportes\\ProyectoInventarioReportes.csproj|c:\\users\\luis sazo\\onedrive\\documentos\\proyectoinventarioreportes\\proyectoinventarioreportes\\dto\\ingresostockdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42951012-8801-4687-A350-A9A1BF3E7994}|ProyectoInventarioReportes\\ProyectoInventarioReportes.csproj|solutionrelative:proyectoinventarioreportes\\dto\\ingresostockdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42951012-8801-4687-A350-A9A1BF3E7994}|ProyectoInventarioReportes\\ProyectoInventarioReportes.csproj|c:\\users\\luis sazo\\onedrive\\documentos\\proyectoinventarioreportes\\proyectoinventarioreportes\\controllers\\movimientoinventariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42951012-8801-4687-A350-A9A1BF3E7994}|ProyectoInventarioReportes\\ProyectoInventarioReportes.csproj|solutionrelative:proyectoinventarioreportes\\controllers\\movimientoinventariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42951012-8801-4687-A350-A9A1BF3E7994}|ProyectoInventarioReportes\\ProyectoInventarioReportes.csproj|c:\\users\\luis sazo\\onedrive\\documentos\\proyectoinventarioreportes\\proyectoinventarioreportes\\services\\existenciasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42951012-8801-4687-A350-A9A1BF3E7994}|ProyectoInventarioReportes\\ProyectoInventarioReportes.csproj|solutionrelative:proyectoinventarioreportes\\services\\existenciasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42951012-8801-4687-A350-A9A1BF3E7994}|ProyectoInventarioReportes\\ProyectoInventarioReportes.csproj|c:\\users\\luis sazo\\onedrive\\documentos\\proyectoinventarioreportes\\proyectoinventarioreportes\\services\\iservices\\iexistenciasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42951012-8801-4687-A350-A9A1BF3E7994}|ProyectoInventarioReportes\\ProyectoInventarioReportes.csproj|solutionrelative:proyectoinventarioreportes\\services\\iservices\\iexistenciasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{42951012-8801-4687-A350-A9A1BF3E7994}|ProyectoInventarioReportes\\ProyectoInventarioReportes.csproj|c:\\users\\luis sazo\\onedrive\\documentos\\proyectoinventarioreportes\\proyectoinventarioreportes\\data\\repository\\irepository\\ireporterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42951012-8801-4687-A350-A9A1BF3E7994}|ProyectoInventarioReportes\\ProyectoInventarioReportes.csproj|solutionrelative:proyectoinventarioreportes\\data\\repository\\irepository\\ireporterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,97 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "20250926044009_UpdateEnumToString.cs",
-              "DocumentMoniker": "C:\\Users\\Luis Sazo\\OneDrive\\Documentos\\ProyectoInventarioReportes\\ProyectoInventarioReportes\\Migrations\\20250926044009_UpdateEnumToString.cs",
-              "RelativeDocumentMoniker": "ProyectoInventarioReportes\\Migrations\\20250926044009_UpdateEnumToString.cs",
-              "ToolTip": "C:\\Users\\Luis Sazo\\OneDrive\\Documentos\\ProyectoInventarioReportes\\ProyectoInventarioReportes\\Migrations\\20250926044009_UpdateEnumToString.cs",
-              "RelativeToolTip": "ProyectoInventarioReportes\\Migrations\\20250926044009_UpdateEnumToString.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T04:40:10.631Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ApplicationDBContext.cs",
-              "DocumentMoniker": "C:\\Users\\Luis Sazo\\OneDrive\\Documentos\\ProyectoInventarioReportes\\ProyectoInventarioReportes\\Data\\ApplicationDBContext.cs",
-              "RelativeDocumentMoniker": "ProyectoInventarioReportes\\Data\\ApplicationDBContext.cs",
-              "ToolTip": "C:\\Users\\Luis Sazo\\OneDrive\\Documentos\\ProyectoInventarioReportes\\ProyectoInventarioReportes\\Data\\ApplicationDBContext.cs",
-              "RelativeToolTip": "ProyectoInventarioReportes\\Data\\ApplicationDBContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA+AAAAAAAAAA==",
+              "Title": "IReporteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Luis Sazo\\OneDrive\\Documentos\\ProyectoInventarioReportes\\ProyectoInventarioReportes\\Data\\Repository\\IRepository\\IReporteRepository.cs",
+              "RelativeDocumentMoniker": "ProyectoInventarioReportes\\Data\\Repository\\IRepository\\IReporteRepository.cs",
+              "ToolTip": "C:\\Users\\Luis Sazo\\OneDrive\\Documentos\\ProyectoInventarioReportes\\ProyectoInventarioReportes\\Data\\Repository\\IRepository\\IReporteRepository.cs",
+              "RelativeToolTip": "ProyectoInventarioReportes\\Data\\Repository\\IRepository\\IReporteRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T04:27:20.598Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IngresoStockDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Luis Sazo\\OneDrive\\Documentos\\ProyectoInventarioReportes\\ProyectoInventarioReportes\\DTO\\IngresoStockDTO.cs",
-              "RelativeDocumentMoniker": "ProyectoInventarioReportes\\DTO\\IngresoStockDTO.cs",
-              "ToolTip": "C:\\Users\\Luis Sazo\\OneDrive\\Documentos\\ProyectoInventarioReportes\\ProyectoInventarioReportes\\DTO\\IngresoStockDTO.cs",
-              "RelativeToolTip": "ProyectoInventarioReportes\\DTO\\IngresoStockDTO.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T04:14:11.405Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Luis Sazo\\OneDrive\\Documentos\\ProyectoInventarioReportes\\ProyectoInventarioReportes\\Program.cs",
-              "RelativeDocumentMoniker": "ProyectoInventarioReportes\\Program.cs",
-              "ToolTip": "C:\\Users\\Luis Sazo\\OneDrive\\Documentos\\ProyectoInventarioReportes\\ProyectoInventarioReportes\\Program.cs",
-              "RelativeToolTip": "ProyectoInventarioReportes\\Program.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAAB4AAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T23:54:39.476Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IExistenciasService.cs",
-              "DocumentMoniker": "C:\\Users\\Luis Sazo\\OneDrive\\Documentos\\ProyectoInventarioReportes\\ProyectoInventarioReportes\\Services\\IServices\\IExistenciasService.cs",
-              "RelativeDocumentMoniker": "ProyectoInventarioReportes\\Services\\IServices\\IExistenciasService.cs",
-              "ToolTip": "C:\\Users\\Luis Sazo\\OneDrive\\Documentos\\ProyectoInventarioReportes\\ProyectoInventarioReportes\\Services\\IServices\\IExistenciasService.cs",
-              "RelativeToolTip": "ProyectoInventarioReportes\\Services\\IServices\\IExistenciasService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T23:24:04.066Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ExistenciasService.cs",
-              "DocumentMoniker": "C:\\Users\\Luis Sazo\\OneDrive\\Documentos\\ProyectoInventarioReportes\\ProyectoInventarioReportes\\Services\\ExistenciasService.cs",
-              "RelativeDocumentMoniker": "ProyectoInventarioReportes\\Services\\ExistenciasService.cs",
-              "ToolTip": "C:\\Users\\Luis Sazo\\OneDrive\\Documentos\\ProyectoInventarioReportes\\ProyectoInventarioReportes\\Services\\ExistenciasService.cs",
-              "RelativeToolTip": "ProyectoInventarioReportes\\Services\\ExistenciasService.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAABcAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T23:20:22.486Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MovimientoInventarioController.cs",
-              "DocumentMoniker": "C:\\Users\\Luis Sazo\\OneDrive\\Documentos\\ProyectoInventarioReportes\\ProyectoInventarioReportes\\Controllers\\MovimientoInventarioController.cs",
-              "RelativeDocumentMoniker": "ProyectoInventarioReportes\\Controllers\\MovimientoInventarioController.cs",
-              "ToolTip": "C:\\Users\\Luis Sazo\\OneDrive\\Documentos\\ProyectoInventarioReportes\\ProyectoInventarioReportes\\Controllers\\MovimientoInventarioController.cs",
-              "RelativeToolTip": "ProyectoInventarioReportes\\Controllers\\MovimientoInventarioController.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAAAC4AAABlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T23:11:11.647Z",
+              "WhenOpened": "2025-09-30T03:11:11.835Z",
               "EditorCaption": ""
             }
           ]

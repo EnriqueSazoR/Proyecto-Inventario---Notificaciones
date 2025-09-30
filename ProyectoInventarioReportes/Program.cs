@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using ProyectoInventarioReportes.Data;
+using ProyectoInventarioReportes.Data.Repository;
 using ProyectoInventarioReportes.Data.Repository.IRepository;
 using ProyectoInventarioReportes.Services;
 using ProyectoInventarioReportes.Services.IServices;
@@ -9,6 +10,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Servicios
 builder.Services.AddScoped<IMovimientoInventarioRepository, MovimientoInventarioRepository>();
 builder.Services.AddScoped<IExistenciasService, ExistenciasService>();
+builder.Services.AddScoped<IReporteRepository, ReporteRepository>();
 
 // Add services to the container.
 

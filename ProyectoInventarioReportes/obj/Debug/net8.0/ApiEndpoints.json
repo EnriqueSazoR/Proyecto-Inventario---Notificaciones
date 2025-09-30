@@ -30,5 +30,41 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProyectoInventarioReportes.Controllers.ReporteController",
+    "Method": "MovimientosProductos",
+    "RelativePath": "MovimientosPorProducto",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filtroDTO",
+        "Type": "ProyectoInventarioReportes.DTO.MovimientoFiltroDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProyectoInventarioReportes.Controllers.ReporteController",
+    "Method": "ProductosMasVendidos",
+    "RelativePath": "ProductosMasVendidos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProyectoInventarioReportes.Controllers.ReporteController",
+    "Method": "StockProductos",
+    "RelativePath": "Stocks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]
