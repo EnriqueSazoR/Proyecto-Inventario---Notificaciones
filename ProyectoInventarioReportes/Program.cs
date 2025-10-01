@@ -4,13 +4,17 @@ using ProyectoInventarioReportes.Data.Repository;
 using ProyectoInventarioReportes.Data.Repository.IRepository;
 using ProyectoInventarioReportes.Services;
 using ProyectoInventarioReportes.Services.IServices;
+using QuestPDF.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
+
+QuestPDF.Settings.License = LicenseType.Community;
 
 // Servicios
 builder.Services.AddScoped<IMovimientoInventarioRepository, MovimientoInventarioRepository>();
 builder.Services.AddScoped<IExistenciasService, ExistenciasService>();
 builder.Services.AddScoped<IReporteRepository, ReporteRepository>();
+builder.Services.AddScoped<IPdfService, PdfService>();
 
 // Add services to the container.
 

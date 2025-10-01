@@ -121,6 +121,18 @@
           }
         }
       }
+    },
+    "/VentasPorCanal": {
+      "get": {
+        "tags": [
+          "Reporte"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {

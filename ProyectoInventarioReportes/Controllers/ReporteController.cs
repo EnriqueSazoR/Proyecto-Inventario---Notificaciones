@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using ProyectoInventarioReportes.Data.Repository.IRepository;
 using ProyectoInventarioReportes.DTO;
+using ProyectoInventarioReportes.Services.IServices;
 
 namespace ProyectoInventarioReportes.Controllers
 {
@@ -9,10 +10,12 @@ namespace ProyectoInventarioReportes.Controllers
     public class ReporteController : ControllerBase
     {
         private readonly IReporteRepository _reporteRepository;
+        private readonly IPdfService _pdf;
 
-        public ReporteController(IReporteRepository reporteRepository)
+        public ReporteController(IReporteRepository reporteRepository, IPdfService pdf)
         {
-            _reporteRepository = reporteRepository;   
+            _reporteRepository = reporteRepository;
+            _pdf = pdf;
         }
 
 
@@ -23,7 +26,9 @@ namespace ProyectoInventarioReportes.Controllers
             {
                 var listaStock = await _reporteRepository.GetProductoStockBajoAlto();
 
-                return Ok(new { ReporteUno = listaStock });
+                var pdf = _pdf.GenerarStocksPDF(listaStock);
+
+                return File(pdf, "application/pdf", "Stocks.pdf");
             }catch(Exception e)
             {
                 return BadRequest(new { e.Message });
@@ -33,28 +38,59 @@ namespace ProyectoInventarioReportes.Controllers
         [HttpPost("/MovimientosPorProducto")]
         public async Task<ActionResult> MovimientosProductos([FromBody] MovimientoFiltroDTO filtroDTO)
         {
-            if(filtroDTO.Mes < 1 || filtroDTO.Mes > 12)
-                return BadRequest("El mes debe estar entre 1 y 12");
+            try
+            {
+                if (filtroDTO.Mes < 1 || filtroDTO.Mes > 12)
+                    return BadRequest("El mes debe estar entre 1 y 12");
 
-            var movimientos = await _reporteRepository.GetMovimientosPorProducto(filtroDTO);
+                var movimientos = await _reporteRepository.GetMovimientosPorProducto(filtroDTO);
 
-            if(movimientos == null || movimientos.Count == 0)
-                return NotFound("El producto no tuvo movimientos en el mes y año ingresados");
+                var pdf = _pdf.GenerarMovimientosProductosPDF(movimientos);
 
-            return Ok(new { ReporteDos = movimientos });
-            
+                return File(pdf, "application/pdf", "MovimientosProductos.pdf");
+
+            }
+            catch(Exception e)
+            {
+                return BadRequest(new { error = e.Message });
+            }                  
 
         }
 
         [HttpGet("/ProductosMasVendidos")]
         public async Task<ActionResult> ProductosMasVendidos()
         {
-            var ranking = await _reporteRepository.GetProductoMasVendidos();
+            try
+            {
+                var ranking = await _reporteRepository.GetProductoMasVendidos();
 
-            if (ranking.Count == 0)
-                return NotFound("No se encontraron ventas registradas");
+                var pdf = _pdf.GenerarProductosMasVendidosPDF(ranking);
 
-            return Ok(new { ReporteTres = ranking });
+                return File(pdf, "application/pdf", "ProductosMasVendidos.pdf");
+            }catch(Exception e)
+            {
+                return BadRequest(new { error = e.Message });
+            }
         }
+
+
+        [HttpGet("/VentasPorCanal")]
+        public async Task<ActionResult> VentasPorCanal()
+        {
+            try
+            {
+                var lista = await _reporteRepository.GetVentasPorTipo();
+
+                var pdf = _pdf.GenerarVentasPorCanalPDF(lista);
+
+                return File(pdf, "application/pdf", "VentasPorCanal.pdf");
+
+            }catch(Exception e)
+            {
+                return BadRequest(new { e.Message });
+            }
+        }
+
+        
     }
 }

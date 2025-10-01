@@ -8,5 +8,6 @@ namespace ProyectoInventarioReportes.Data.Repository.IRepository
         Task<List<ProductoStockDTO>> GetProductoStockBajoAlto();
         Task<List<MovimientoDTO>> GetMovimientosPorProducto(MovimientoFiltroDTO filtroDTO);
         Task<List<ProductoMasVendidoDTO>> GetProductoMasVendidos();
+        Task<List<TipoVentaDTO>> GetVentasPorTipo();
     }
 }

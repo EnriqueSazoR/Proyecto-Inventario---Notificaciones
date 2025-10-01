@@ -66,5 +66,15 @@
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProyectoInventarioReportes.Controllers.ReporteController",
+    "Method": "VentasPorCanal",
+    "RelativePath": "VentasPorCanal",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]
