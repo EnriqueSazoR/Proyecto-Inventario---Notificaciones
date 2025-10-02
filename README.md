@@ -29,7 +29,7 @@ API de Inventario desarrollada con **ASP.NET Core Web API** y **SQL Server**, en
   - Envío de alertas por correo cuando se produzca una entrada o salida.
  
 - **PDF**  
-  - Cada reporte contará con su respectivo PDF.  
+  - Cada reporte genera su respectivo PDF.  
 
 ---
 
@@ -50,47 +50,16 @@ API de Inventario desarrollada con **ASP.NET Core Web API** y **SQL Server**, en
 
 ## Documentación de la API
 
-Endpoint
-Método
-Descripción
-Ejemplo de Request
+Breve resumen de cada endpoint
 
-
-/MovimientoInventario/Entrada
-POST
-Ingresa unidades de un producto al inventario (envía email de notificación)
-{"producto": "Laptop", "unidades": 10, "movimiento": "EntradaStock", "venta": "Online", "fechaMovimiento": "2025-10-01T10:00:00Z"}
-
-
-/MovimientoInventario/Salidas
-POST
-Registra salida de unidades de un producto con validación (envía email)
-{"producto": "Laptop", "unidades": 5, "movimiento": "Venta", "venta": "Sucursal", "fechaMovimiento": "2025-10-01T10:00:00Z"}
-
-
-/Stocks
-GET
-Obtiene el estado actual del inventario
-Ninguno
-
-
-/MovimientosPorProducto
-POST
-Filtra movimientos de inventario por producto, mes y/o año
-{"nombreProducto": "Laptop", "mes": 10, "anio": 2025}
-
-
-/ProductosMasVendidos
-GET
-Devuelve los productos más vendidos
-Ninguno
-
-
-/VentasPorCanal
-GET
-Devuelve un reporte de ventas por canal (Online o Sucursal)
-Ninguno
-
+| Endpoint                      | Método | Descripción                          | Cuerpo de la solicitud|
+|-------------------------------|--------|--------------------------------------|-----------------------|
+| /MovimientoInventario/Entrada | POST   | Ingresa unidades de un producto      | IngresoStockDTO       |
+| /MovimientoInventario/Salidas | POST   | Registra salida de unidades          | SalidaStockDTO        |
+| /Stocks                       | GET    | Obtiene listado de stocks actuales   | -                     |
+| /MovimientosPorProducto       | POST   | Filtra movimientos por producto      | MovimientoFiltroDTO   |
+| /ProductosMasVendidos         | GET    | Obtiene productos más vendidos       | -                     |
+| /VentasPorCanal               | GET    | Obtiene ventas agrupadas por canal   | -                     |
 
 
 
