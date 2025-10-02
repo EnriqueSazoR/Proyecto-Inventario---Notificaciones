@@ -51,4 +51,8 @@ API de Inventario desarrollada con **ASP.NET Core Web API** y **SQL Server**, en
 ## Documentación API
 Para explorar y probar los endpoints de la API, usa el Swagger UI interactivo a continuación. Puedes expandir cada endpoint para ver detalles como parámetros, cuerpos de request (ej. IngresoStockDTO), respuestas esperadas y ejemplos de uso.
 
-<iframe = src"https://raw.githubusercontent.com/EnriqueSazoR/Proyecto-Inventario---Notificaciones/refs/heads/main/ProyectoInventarioReportes/Docs/Swagger/swagger.json"></iframe>
+# Documentación de la API
+
+Para explorar y probar los endpoints de la API, usa el Swagger UI interactivo a continuación. Puedes expandir cada endpoint para ver detalles como parámetros, cuerpos de request (ej. IngresoStockDTO), respuestas esperadas y ejemplos de uso.
+
+<iframe src="https://petstore.swagger.io/?url=https://raw.githubusercontent.com/EnriqueSazoR/Proyecto-Inventario---Notificaciones/refs/heads/main/ProyectoInventarioReportes/Docs/Swagger/swagger.json" width="100%" height="800px" frameborder="0"></iframe>
