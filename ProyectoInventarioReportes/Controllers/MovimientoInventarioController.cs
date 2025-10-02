@@ -12,11 +12,13 @@ namespace ProyectoInventarioReportes.Controllers
     {
         private readonly IMovimientoInventarioRepository _repository;
         private readonly IExistenciasService _existencias;
+        private readonly IEmailService _emailService;
 
-        public MovimientoInventarioController(IMovimientoInventarioRepository repository, IExistenciasService existencias)
+        public MovimientoInventarioController(IMovimientoInventarioRepository repository, IExistenciasService existencias, IEmailService emailService)
         {
             _repository = repository;
             _existencias = existencias;
+            _emailService = emailService;
         }
         
         // Metodo para ingresar Stock
@@ -25,11 +27,13 @@ namespace ProyectoInventarioReportes.Controllers
         {
             try
             {
-               await _repository.IngresoStock(ingresoStockDTO);
+                await _repository.IngresoStock(ingresoStockDTO);
+
+                await _emailService.EnviarCorreoIngresoStock(ingresoStockDTO.Producto, ingresoStockDTO.Unidades);
 
                 return Ok(new
                 {
-                    mensaje = "Ingreso correctamente"
+                    mensaje = "Stock ingresado correctamente y envío de correo exitoso"
                 });
 
             }catch(Exception e)
@@ -48,7 +52,9 @@ namespace ProyectoInventarioReportes.Controllers
 
                 await _repository.SalidaStock(salidaStockDTO);
 
-                return Ok(new { mensaje = "Salida exitosa" });
+                await _emailService.EnviarCorreoSalidaStock(salidaStockDTO.Producto, salidaStockDTO.Unidades);
+
+                return Ok(new { mensaje = "Stock retirado correctamente y envío de correo exitoso" });
 
             }catch(Exception e)
             {

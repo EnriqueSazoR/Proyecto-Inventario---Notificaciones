@@ -15,6 +15,7 @@ builder.Services.AddScoped<IMovimientoInventarioRepository, MovimientoInventario
 builder.Services.AddScoped<IExistenciasService, ExistenciasService>();
 builder.Services.AddScoped<IReporteRepository, ReporteRepository>();
 builder.Services.AddScoped<IPdfService, PdfService>();
+builder.Services.AddTransient<IEmailService, EmailService>();
 
 // Add services to the container.
 

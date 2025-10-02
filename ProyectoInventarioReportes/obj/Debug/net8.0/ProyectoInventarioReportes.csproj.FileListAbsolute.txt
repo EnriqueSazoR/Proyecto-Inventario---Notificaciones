@@ -183,3 +183,8 @@ C:\Users\Luis Sazo\OneDrive\Documentos\ProyectoInventarioReportes\ProyectoInvent
 C:\Users\Luis Sazo\OneDrive\Documentos\ProyectoInventarioReportes\ProyectoInventarioReportes\bin\Debug\net8.0\runtimes\win-x86\native\libwinpthread-1.dll
 C:\Users\Luis Sazo\OneDrive\Documentos\ProyectoInventarioReportes\ProyectoInventarioReportes\bin\Debug\net8.0\runtimes\win-x86\native\qpdf.dll
 C:\Users\Luis Sazo\OneDrive\Documentos\ProyectoInventarioReportes\ProyectoInventarioReportes\bin\Debug\net8.0\runtimes\win-x86\native\zlib1.dll
+C:\Users\Luis Sazo\OneDrive\Documentos\ProyectoInventarioReportes\ProyectoInventarioReportes\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\Luis Sazo\OneDrive\Documentos\ProyectoInventarioReportes\ProyectoInventarioReportes\bin\Debug\net8.0\MailKit.dll
+C:\Users\Luis Sazo\OneDrive\Documentos\ProyectoInventarioReportes\ProyectoInventarioReportes\bin\Debug\net8.0\MimeKit.dll
+C:\Users\Luis Sazo\OneDrive\Documentos\ProyectoInventarioReportes\ProyectoInventarioReportes\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Luis Sazo\OneDrive\Documentos\ProyectoInventarioReportes\ProyectoInventarioReportes\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll

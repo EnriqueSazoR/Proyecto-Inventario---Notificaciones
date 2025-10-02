@@ -3,24 +3,27 @@
   "WorkspaceRootPath": "C:\\Users\\Luis Sazo\\OneDrive\\Documentos\\ProyectoInventarioReportes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{42951012-8801-4687-A350-A9A1BF3E7994}|ProyectoInventarioReportes\\ProyectoInventarioReportes.csproj|c:\\users\\luis sazo\\onedrive\\documentos\\proyectoinventarioreportes\\proyectoinventarioreportes\\controllers\\reportecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42951012-8801-4687-A350-A9A1BF3E7994}|ProyectoInventarioReportes\\ProyectoInventarioReportes.csproj|solutionrelative:proyectoinventarioreportes\\controllers\\reportecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{42951012-8801-4687-A350-A9A1BF3E7994}|ProyectoInventarioReportes\\ProyectoInventarioReportes.csproj|c:\\users\\luis sazo\\onedrive\\documentos\\proyectoinventarioreportes\\proyectoinventarioreportes\\docs\\swagger\\swagger.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{42951012-8801-4687-A350-A9A1BF3E7994}|ProyectoInventarioReportes\\ProyectoInventarioReportes.csproj|solutionrelative:proyectoinventarioreportes\\docs\\swagger\\swagger.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42951012-8801-4687-A350-A9A1BF3E7994}|ProyectoInventarioReportes\\ProyectoInventarioReportes.csproj|c:\\users\\luis sazo\\onedrive\\documentos\\proyectoinventarioreportes\\proyectoinventarioreportes\\data\\repository\\reporterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42951012-8801-4687-A350-A9A1BF3E7994}|ProyectoInventarioReportes\\ProyectoInventarioReportes.csproj|solutionrelative:proyectoinventarioreportes\\data\\repository\\reporterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{42951012-8801-4687-A350-A9A1BF3E7994}|ProyectoInventarioReportes\\ProyectoInventarioReportes.csproj|c:\\users\\luis sazo\\onedrive\\documentos\\proyectoinventarioreportes\\proyectoinventarioreportes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42951012-8801-4687-A350-A9A1BF3E7994}|ProyectoInventarioReportes\\ProyectoInventarioReportes.csproj|solutionrelative:proyectoinventarioreportes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42951012-8801-4687-A350-A9A1BF3E7994}|ProyectoInventarioReportes\\ProyectoInventarioReportes.csproj|c:\\users\\luis sazo\\onedrive\\documentos\\proyectoinventarioreportes\\proyectoinventarioreportes\\services\\pdfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42951012-8801-4687-A350-A9A1BF3E7994}|ProyectoInventarioReportes\\ProyectoInventarioReportes.csproj|solutionrelative:proyectoinventarioreportes\\services\\pdfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{42951012-8801-4687-A350-A9A1BF3E7994}|ProyectoInventarioReportes\\ProyectoInventarioReportes.csproj|c:\\users\\luis sazo\\onedrive\\documentos\\proyectoinventarioreportes\\proyectoinventarioreportes\\controllers\\movimientoinventariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42951012-8801-4687-A350-A9A1BF3E7994}|ProyectoInventarioReportes\\ProyectoInventarioReportes.csproj|solutionrelative:proyectoinventarioreportes\\controllers\\movimientoinventariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42951012-8801-4687-A350-A9A1BF3E7994}|ProyectoInventarioReportes\\ProyectoInventarioReportes.csproj|c:\\users\\luis sazo\\onedrive\\documentos\\proyectoinventarioreportes\\proyectoinventarioreportes\\services\\iservices\\ipdfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42951012-8801-4687-A350-A9A1BF3E7994}|ProyectoInventarioReportes\\ProyectoInventarioReportes.csproj|solutionrelative:proyectoinventarioreportes\\services\\iservices\\ipdfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{42951012-8801-4687-A350-A9A1BF3E7994}|ProyectoInventarioReportes\\ProyectoInventarioReportes.csproj|c:\\users\\luis sazo\\onedrive\\documentos\\proyectoinventarioreportes\\proyectoinventarioreportes\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42951012-8801-4687-A350-A9A1BF3E7994}|ProyectoInventarioReportes\\ProyectoInventarioReportes.csproj|solutionrelative:proyectoinventarioreportes\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42951012-8801-4687-A350-A9A1BF3E7994}|ProyectoInventarioReportes\\ProyectoInventarioReportes.csproj|c:\\users\\luis sazo\\onedrive\\documentos\\proyectoinventarioreportes\\proyectoinventarioreportes\\dto\\productomasvendidodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42951012-8801-4687-A350-A9A1BF3E7994}|ProyectoInventarioReportes\\ProyectoInventarioReportes.csproj|solutionrelative:proyectoinventarioreportes\\dto\\productomasvendidodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Luis Sazo\\AppData\\Roaming\\Microsoft\\UserSecrets\\9049f020-b8f8-4f83-93f3-99034099fd5f\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42951012-8801-4687-A350-A9A1BF3E7994}|ProyectoInventarioReportes\\ProyectoInventarioReportes.csproj|c:\\users\\luis sazo\\onedrive\\documentos\\proyectoinventarioreportes\\proyectoinventarioreportes\\services\\iservices\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42951012-8801-4687-A350-A9A1BF3E7994}|ProyectoInventarioReportes\\ProyectoInventarioReportes.csproj|solutionrelative:proyectoinventarioreportes\\services\\iservices\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +33,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IPdfService.cs",
-              "DocumentMoniker": "C:\\Users\\Luis Sazo\\OneDrive\\Documentos\\ProyectoInventarioReportes\\ProyectoInventarioReportes\\Services\\IServices\\IPdfService.cs",
-              "RelativeDocumentMoniker": "ProyectoInventarioReportes\\Services\\IServices\\IPdfService.cs",
-              "ToolTip": "C:\\Users\\Luis Sazo\\OneDrive\\Documentos\\ProyectoInventarioReportes\\ProyectoInventarioReportes\\Services\\IServices\\IPdfService.cs",
-              "RelativeToolTip": "ProyectoInventarioReportes\\Services\\IServices\\IPdfService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T04:15:30.486Z",
+              "DocumentIndex": 0,
+              "Title": "swagger.json",
+              "DocumentMoniker": "C:\\Users\\Luis Sazo\\OneDrive\\Documentos\\ProyectoInventarioReportes\\ProyectoInventarioReportes\\Docs\\Swagger\\swagger.json",
+              "RelativeDocumentMoniker": "ProyectoInventarioReportes\\Docs\\Swagger\\swagger.json",
+              "ToolTip": "C:\\Users\\Luis Sazo\\OneDrive\\Documentos\\ProyectoInventarioReportes\\ProyectoInventarioReportes\\Docs\\Swagger\\swagger.json",
+              "RelativeToolTip": "ProyectoInventarioReportes\\Docs\\Swagger\\swagger.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-02T04:20:22.161Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ReporteRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Luis Sazo\\OneDrive\\Documentos\\ProyectoInventarioReportes\\ProyectoInventarioReportes\\Data\\Repository\\ReporteRepository.cs",
-              "RelativeDocumentMoniker": "ProyectoInventarioReportes\\Data\\Repository\\ReporteRepository.cs",
-              "ToolTip": "C:\\Users\\Luis Sazo\\OneDrive\\Documentos\\ProyectoInventarioReportes\\ProyectoInventarioReportes\\Data\\Repository\\ReporteRepository.cs",
-              "RelativeToolTip": "ProyectoInventarioReportes\\Data\\Repository\\ReporteRepository.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAowDEAAAAfAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Luis Sazo\\OneDrive\\Documentos\\ProyectoInventarioReportes\\ProyectoInventarioReportes\\Program.cs",
+              "RelativeDocumentMoniker": "ProyectoInventarioReportes\\Program.cs",
+              "ToolTip": "C:\\Users\\Luis Sazo\\OneDrive\\Documentos\\ProyectoInventarioReportes\\ProyectoInventarioReportes\\Program.cs",
+              "RelativeToolTip": "ProyectoInventarioReportes\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T04:08:12.165Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ReporteController.cs",
-              "DocumentMoniker": "C:\\Users\\Luis Sazo\\OneDrive\\Documentos\\ProyectoInventarioReportes\\ProyectoInventarioReportes\\Controllers\\ReporteController.cs",
-              "RelativeDocumentMoniker": "ProyectoInventarioReportes\\Controllers\\ReporteController.cs",
-              "ToolTip": "C:\\Users\\Luis Sazo\\OneDrive\\Documentos\\ProyectoInventarioReportes\\ProyectoInventarioReportes\\Controllers\\ReporteController.cs",
-              "RelativeToolTip": "ProyectoInventarioReportes\\Controllers\\ReporteController.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAAwCQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T04:07:39.849Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProductoMasVendidoDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Luis Sazo\\OneDrive\\Documentos\\ProyectoInventarioReportes\\ProyectoInventarioReportes\\DTO\\ProductoMasVendidoDTO.cs",
-              "RelativeDocumentMoniker": "ProyectoInventarioReportes\\DTO\\ProductoMasVendidoDTO.cs",
-              "ToolTip": "C:\\Users\\Luis Sazo\\OneDrive\\Documentos\\ProyectoInventarioReportes\\ProyectoInventarioReportes\\DTO\\ProductoMasVendidoDTO.cs",
-              "RelativeToolTip": "ProyectoInventarioReportes\\DTO\\ProductoMasVendidoDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T03:46:48.409Z",
+              "WhenOpened": "2025-10-02T04:00:06.74Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "PdfService.cs",
-              "DocumentMoniker": "C:\\Users\\Luis Sazo\\OneDrive\\Documentos\\ProyectoInventarioReportes\\ProyectoInventarioReportes\\Services\\PdfService.cs",
-              "RelativeDocumentMoniker": "ProyectoInventarioReportes\\Services\\PdfService.cs",
-              "ToolTip": "C:\\Users\\Luis Sazo\\OneDrive\\Documentos\\ProyectoInventarioReportes\\ProyectoInventarioReportes\\Services\\PdfService.cs",
-              "RelativeToolTip": "ProyectoInventarioReportes\\Services\\PdfService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAABMAAAAAAAAAA==",
+              "Title": "MovimientoInventarioController.cs",
+              "DocumentMoniker": "C:\\Users\\Luis Sazo\\OneDrive\\Documentos\\ProyectoInventarioReportes\\ProyectoInventarioReportes\\Controllers\\MovimientoInventarioController.cs",
+              "RelativeDocumentMoniker": "ProyectoInventarioReportes\\Controllers\\MovimientoInventarioController.cs",
+              "ToolTip": "C:\\Users\\Luis Sazo\\OneDrive\\Documentos\\ProyectoInventarioReportes\\ProyectoInventarioReportes\\Controllers\\MovimientoInventarioController.cs",
+              "RelativeToolTip": "ProyectoInventarioReportes\\Controllers\\MovimientoInventarioController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowDYAAABuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T03:46:45.305Z",
+              "WhenOpened": "2025-10-02T03:24:16.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\Luis Sazo\\AppData\\Roaming\\Microsoft\\UserSecrets\\9049f020-b8f8-4f83-93f3-99034099fd5f\\secrets.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\9049f020-b8f8-4f83-93f3-99034099fd5f\\secrets.json",
+              "ToolTip": "C:\\Users\\Luis Sazo\\AppData\\Roaming\\Microsoft\\UserSecrets\\9049f020-b8f8-4f83-93f3-99034099fd5f\\secrets.json",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\9049f020-b8f8-4f83-93f3-99034099fd5f\\secrets.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-02T03:18:38.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\Luis Sazo\\OneDrive\\Documentos\\ProyectoInventarioReportes\\ProyectoInventarioReportes\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "ProyectoInventarioReportes\\Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\Luis Sazo\\OneDrive\\Documentos\\ProyectoInventarioReportes\\ProyectoInventarioReportes\\Services\\EmailService.cs",
+              "RelativeToolTip": "ProyectoInventarioReportes\\Services\\EmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T03:13:53.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "C:\\Users\\Luis Sazo\\OneDrive\\Documentos\\ProyectoInventarioReportes\\ProyectoInventarioReportes\\Services\\IServices\\IEmailService.cs",
+              "RelativeDocumentMoniker": "ProyectoInventarioReportes\\Services\\IServices\\IEmailService.cs",
+              "ToolTip": "C:\\Users\\Luis Sazo\\OneDrive\\Documentos\\ProyectoInventarioReportes\\ProyectoInventarioReportes\\Services\\IServices\\IEmailService.cs",
+              "RelativeToolTip": "ProyectoInventarioReportes\\Services\\IServices\\IEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T03:09:58.085Z",
               "EditorCaption": ""
             }
           ]

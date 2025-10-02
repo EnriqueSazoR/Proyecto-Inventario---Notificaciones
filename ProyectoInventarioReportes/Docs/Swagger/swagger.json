@@ -1,0 +1,238 @@
+﻿{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "ProyectoInventarioReportes",
+    "version": "1.0"
+  },
+  "paths": {
+    "/MovimientoInventario/Entrada": {
+      "post": {
+        "tags": [
+          "MovimientoInventario"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/IngresoStockDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/IngresoStockDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/IngresoStockDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/MovimientoInventario/Salidas": {
+      "post": {
+        "tags": [
+          "MovimientoInventario"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SalidaStockDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SalidaStockDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/SalidaStockDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Stocks": {
+      "get": {
+        "tags": [
+          "Reporte"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/MovimientosPorProducto": {
+      "post": {
+        "tags": [
+          "Reporte"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MovimientoFiltroDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MovimientoFiltroDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MovimientoFiltroDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/ProductosMasVendidos": {
+      "get": {
+        "tags": [
+          "Reporte"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/VentasPorCanal": {
+      "get": {
+        "tags": [
+          "Reporte"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "IngresoStockDTO": {
+        "required": [
+          "movimiento",
+          "producto",
+          "unidades"
+        ],
+        "type": "object",
+        "properties": {
+          "producto": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "unidades": {
+            "maximum": 2147483647,
+            "minimum": 1,
+            "pattern": "^\\d+$",
+            "type": "integer",
+            "format": "int32"
+          },
+          "movimiento": {
+            "$ref": "#/components/schemas/TipoMovimiento"
+          },
+          "venta": {
+            "$ref": "#/components/schemas/TipoVenta"
+          },
+          "fechaMovimiento": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
+      "MovimientoFiltroDTO": {
+        "type": "object",
+        "properties": {
+          "nombreProducto": {
+            "type": "string",
+            "nullable": true
+          },
+          "mes": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "anio": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "SalidaStockDTO": {
+        "required": [
+          "movimiento",
+          "producto",
+          "unidades"
+        ],
+        "type": "object",
+        "properties": {
+          "producto": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "unidades": {
+            "maximum": 2147483647,
+            "minimum": 1,
+            "pattern": "^\\d+$",
+            "type": "integer",
+            "format": "int32"
+          },
+          "movimiento": {
+            "$ref": "#/components/schemas/TipoMovimiento"
+          },
+          "venta": {
+            "$ref": "#/components/schemas/TipoVenta"
+          },
+          "fechaMovimiento": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
+      "TipoMovimiento": {
+        "enum": [
+          "EntradaStock",
+          "Venta"
+        ],
+        "type": "string"
+      },
+      "TipoVenta": {
+        "enum": [
+          "Online",
+          "Sucursal"
+        ],
+        "type": "string"
+      }
+    }
+  }
+}
